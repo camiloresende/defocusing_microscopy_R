@@ -3,7 +3,7 @@ Code to automatically analyse DM images and get morphological and mechanical par
 
 How to use:
 
-Required R packages:
+Required R v 3.6.3 and the following packages:
 install.packages(c("pixmap", "tiff", "rtiff", "fields", "stats", "graphics", "grDevices", "utils", "datasets", "methods", "base", "mrbsizeR"))
 
 Both image_processing_dm.R and functions_dm.R should be in the same folder
