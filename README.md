@@ -2,6 +2,10 @@
 Code to automatically analyse DM images and get morphological and mechanical parameters from erythrocytes.
 
 How to use:
+
+Required R packages:
+install.packages(c("pixmap", "tiff", "rtiff", "fields", "stats", "graphics", "grDevices", "utils", "datasets", "methods", "base", "mrbsizeR"))
+
 Both image_processing_dm.R and functions_dm.R should be in the same folder
 
 Create a folder with the videos to be analysed:
