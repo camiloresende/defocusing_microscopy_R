@@ -8,7 +8,7 @@ install.packages(c("pixmap", "tiff", "plotrix", "pracma", "fields", "stats", "gr
 
 Both image_processing_dm.R and functions_dm.R should be in the same folder
 
-Create a folder with the videos to be analysed:
+Create a folder with the videos to be analysed (An example is provided in folder /Example):
 - 256 x 256 pixels
 - background video (background.tiff)
 - 3 videos for each cell (HN ZJ.tiff, where N is the cell number and J is the defocusing diastance, e.g. H1 Z0.tiff, H1 Z2.tiff, and H1 Z4.tiff)
